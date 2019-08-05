@@ -1,0 +1,26 @@
+{
+  "name": "highlightjs-robot",
+  "version": "1.0.6",
+  "description": "highlight.js syntax definition for Robot Framework language",
+  "main": "robot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pospi/highlightjs-robot.git"
+  },
+  "keywords": [
+    "Robot Framework",
+    "RF",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "Harri Paavola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/highlightjs/highlightjs-robot/issues"
+  },
+  "homepage": "https://github.com/highlightjs/highlightjs-robot#readme"
+}
