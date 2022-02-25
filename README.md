@@ -15,7 +15,7 @@ If you're not using a build system and just want to embed this in your webpage:
 <script type="text/javascript" src="/path/to/highlightjs-robot/robot.js"></script>
 <script type="text/javascript">
     hljs.registerLanguage('robot', window.hljsDefineRobot);
-    hljs.initHighlightingOnLoad();
+    hljs.highlightAll();
 </script>
 ```
 
@@ -26,7 +26,7 @@ var hljs = require('highlightjs');
 var hljsDefineRobot = require('highlightjs-robot');
 
 hljsDefineRobot(hljs);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 While Robot Framework supports [multiple formats](http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#supported-file-formats), currently only space sparated format is supported.
